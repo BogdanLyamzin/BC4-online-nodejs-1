@@ -1,6 +1,10 @@
 // const users = require("./users");
-// const {admins, managers} = require("./users");
 // console.log(users);
+// const {admins} = require("./users");
+// console.log(admins);
+
+// const dateFunctions = require("./functions");
+// console.log(getCurrentMonth)
 
 // const people = require("./users");
 // console.log(people)
@@ -20,6 +24,8 @@
 // console.log(firstPeople);
 // console.log(rest);
 
-// const {form, modal} = require("./views");
-// console.log(form);
-// console.log(modal);
+const fs = require("fs");
+
+const {form, modal} = require("./views");
+console.log(form);
+console.log(modal);
