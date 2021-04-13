@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^6.0.0",
+    "slick": "^1.12.2",
+    "swiper": "^6.4.15",
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "imagemin": "^7.0.1",
+    "terser": "^5.6.0"
+  }
+}
